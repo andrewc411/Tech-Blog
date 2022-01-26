@@ -4,7 +4,7 @@ const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
 const app = express()
-const port = port = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 mongoose.connect('mongodb://localhost/blog')
 
@@ -23,4 +23,4 @@ app.use('/articles' , articleRouter)
 
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Example app listening on port ${port}`)})
