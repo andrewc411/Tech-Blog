@@ -25,3 +25,4 @@ Slugify
 I followed this tutorial: https://www.youtube.com/watch?v=1NrHkjlWVhM&t=2767s
 
 ## Deployment
+https://www.youtube.com/watch?v=b5BKXjt-IHQ
